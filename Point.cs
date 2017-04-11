@@ -10,13 +10,11 @@ namespace ConsoleApplication35
     {
         public double xCoordinate;
         public double yCoordinate;
-        public static int count;
 
         public  Point ()
         {
             xCoordinate = 0;
             yCoordinate = 0;
-            count++;
 
         }
 
@@ -24,7 +22,6 @@ namespace ConsoleApplication35
         {
             xCoordinate = _xCoordinate;
             yCoordinate = _yCoordinate;
-            count++;
         }
 
         public void Distance()
